@@ -1,0 +1,21 @@
+// The * itself doesn't effect on elements with ::before, ::after
+// Therefore, need to add addition *::before, *::after
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	// Default is 16px, 62.5% * 16px = 10px
+	font-size: 62.5%; // Affect the rem
+}
+
+body {
+	// Originally assign {font, background, background-color, margin} to body
+	font-family: 'Work Sans', sans-serif;
+	font-size: $text-size-normal;
+}
+
