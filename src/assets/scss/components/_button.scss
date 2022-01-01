@@ -1,0 +1,28 @@
+// BEM naming system
+.btn {
+	cursor: pointer;
+	user-select: none;
+	display: inline-block;
+	padding: $btn-padding-normal;
+	border-radius: $btn-padding-normal;
+	font-size: 1.6rem;
+
+	&--primary {
+		@include button-style($btn-primary-color, $btn-text-color);
+
+		&:hover {
+			@include button-style(
+				rgba($color: $btn-primary-color, $alpha: 0.7),
+				rgba($color: $btn-text-color, $alpha: 0.7)
+			);
+		}
+	}
+
+	&__loading {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+		background-image: url(../../images/LoadingButton.svg);
+	}
+}
