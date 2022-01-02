@@ -60,3 +60,18 @@
 		padding-right: #{$i}px !important;
 	}
 }
+
+.container {
+  margin: 0 auto;
+  max-width: $breakpoint-xl;
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+  @media (min-width: $breakpoint-md) {
+    & {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+}

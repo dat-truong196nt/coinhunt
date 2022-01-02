@@ -7,7 +7,7 @@ const axiosClient = axios.create({
 })
 
 const getAll = () => {
-	axiosClient.get('/coins/markets', {
+	return axiosClient.get('/coins/markets', {
 		params: {
 			vs_currency: 'usd',
 			page: 1,
