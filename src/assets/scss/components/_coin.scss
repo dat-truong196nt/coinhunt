@@ -5,7 +5,7 @@
 	&-info {
 		&__image {
 			display: block;
-			width: 70%;
+			width: 60%;
 			margin: 20px auto;
 		}
 
@@ -18,9 +18,10 @@
 		border-bottom: 2px solid $coin-border-color;
 	}
 	&-action {
-		margin: 20px;
 		&__btn {
-			width: 60%;
+			display: block;
+			width: 70%;
+			margin: 10px auto;
 		}
 	}
 
