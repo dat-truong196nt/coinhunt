@@ -6,7 +6,7 @@ const Coin = ({imgUrl='https://s2.coinmarketcap.com/static/img/coins/200x200/183
 			<img className='coin-info__image' src={imgUrl} alt='coin'></img>
 			<div className='coin-info__price'>${price}</div>
 		</div>
-		<div className='coin-action px-30 py-10'>
+		<div className='coin-action'>
 			<Button isLoading={isLoading}> Force Update</Button>
 		</div>
 	</div>
