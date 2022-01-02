@@ -10,4 +10,15 @@
 
 	border-bottom: 1px solid $header-border-color;
 	background-color: $header-background-color;
+
+	@media (max-width: 460px) {
+		&__right {
+			display: none;
+		}
+	}
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
 }
