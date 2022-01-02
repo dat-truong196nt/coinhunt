@@ -1,12 +1,14 @@
-const Button = ({actTxt, isLoading, onBtnClick}) => {
+const Button = ({isLoading, onBtnClick, children}) => {
 	return (
 		isLoading ?
 		<button className='btn btn--primary' disabled onClick={onBtnClick}>
-			{actTxt}
+			<span>{children}</span>
 			<span className='btn--loading'></span>
 		</button>
 		:
-		<button className='btn btn--primary' onClick={onBtnClick}>{actTxt}</button>
+		<button className='btn btn--primary' onClick={onBtnClick}>
+			<span>{children}</span>
+		</button>
 	)
 }
 

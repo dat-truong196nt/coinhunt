@@ -2,14 +2,12 @@
 .btn {
 	cursor: pointer;
 	user-select: none;
-	display: flex;
+	display: inline-block;
 	padding: $btn-padding-normal;
 	border-radius: $btn-border-radius-normal;
 	font-size: 1.6rem;
 	width: 100%;
 	text-align: center;
-	justify-content: center;
-	align-items: center;
 
 	&--primary {
 		@include button-style($btn-primary-color, $btn-text-color);
