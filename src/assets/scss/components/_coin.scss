@@ -1,0 +1,29 @@
+.coin {
+	max-width: $coin-max-width;
+	display: block;
+
+	&-info {
+		&__image {
+			display: block;
+			width: 70%;
+			margin: 20px auto;
+		}
+
+		&__price {
+			color: $color-normal;
+			text-align: center;
+			font-size: 2.4rem;
+			padding: 10px;
+		}
+		border-bottom: 2px solid $coin-border-color;
+	}
+	&-action {
+		margin: 20px;
+		&__btn {
+			width: 60%;
+		}
+	}
+
+	border: 2px solid $coin-border-color;
+	border-radius: 10px;
+}
