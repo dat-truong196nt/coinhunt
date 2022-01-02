@@ -29,6 +29,7 @@
 
 	border: 2px solid $coin-border-color;
 	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba($color: $btn-text-color, $alpha: 0.2);
 
 	&-list {
 		margin-top: 20px;
@@ -36,6 +37,6 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: center;
-		gap: 10px
+		gap: 30px
 	}
 }
