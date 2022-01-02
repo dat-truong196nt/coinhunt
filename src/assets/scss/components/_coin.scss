@@ -1,12 +1,14 @@
 .coin {
-	max-width: $coin-max-width;
+	width: $coin-width;
+	height: $coin-height;
 	display: block;
 
 	&-info {
 		&__image {
 			display: block;
-			width: 60%;
 			margin: 20px auto;
+			width: 150px;
+			height: 150px;
 		}
 
 		&__price {
@@ -27,4 +29,12 @@
 
 	border: 2px solid $coin-border-color;
 	border-radius: 10px;
+
+	&-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		gap: 10px
+	}
 }
