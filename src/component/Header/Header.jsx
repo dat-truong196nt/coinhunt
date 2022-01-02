@@ -3,8 +3,8 @@ const Header = ({counter = 0}) => {
 		<>
 		<div className='header'>
 			<div className='nav'>
-				<div className='btn btn--primary'>Home</div>
-				<div className='btn btn--primary'>Count</div>
+				<div className='btn btn--primary my-10'>Home</div>
+				<div className='btn btn--primary my-10 ml-10'>Count</div>
 			</div>
 			<p className='header__right counter'>Count: {counter}</p>
 		</div>

@@ -3,12 +3,14 @@ $text-size-normal: 1.6rem;
 $color-normal: #fefefe;
 
 // buttons
-$btn-padding-normal: 5px 10px;
-$btn-margin-normal: auto 5px;
+$btn-padding-normal: 8px 10px;
+$btn-margin-normal: auto;
 $btn-border-radius-normal: 5px;
 $btn-primary-color: #f52871;
 $btn-text-color: $color-normal;
 
-// Header
+// layouts
 $header-background-color: #1e1f24;
 $header-border-color: #2e3145;
+$header-height: 60px;
+$content-background-color: #16171b;

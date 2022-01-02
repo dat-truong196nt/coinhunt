@@ -4,18 +4,23 @@
 	user-select: none;
 	display: inline-block;
 	padding: $btn-padding-normal;
-	margin: $btn-margin-normal;
 	border-radius: $btn-border-radius-normal;
 	font-size: 1.6rem;
+	width: 100%;
+	text-align: center;
 
 	&--primary {
 		@include button-style($btn-primary-color, $btn-text-color);
 
-		&:hover, &[disabled] {
+		&:hover {
 			@include button-style(
 				rgba($color: $btn-primary-color, $alpha: 0.7),
 				rgba($color: $btn-text-color, $alpha: 0.7)
 			);
+
+			&[disabled] {
+				cursor: none;
+			}
 		}
 	}
 
