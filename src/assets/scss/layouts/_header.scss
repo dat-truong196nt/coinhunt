@@ -2,6 +2,7 @@
 	width: 100%;
 	height: $header-height;
 	position: fixed;
+	z-index: 1;
 
 	display: flex;
 	justify-content: space-between;
