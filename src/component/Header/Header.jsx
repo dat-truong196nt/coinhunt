@@ -1,4 +1,6 @@
-const Header = ({counter = 0}) => {
+import Counter from "../Counter/Counter";
+
+const Header = () => {
 	return (
 		<>
 		<div className='header'>
@@ -6,7 +8,7 @@ const Header = ({counter = 0}) => {
 				<div className='btn btn--primary my-10'>Home</div>
 				<div className='btn btn--primary my-10 ml-10'>Count</div>
 			</div>
-			<p className='header__right counter'>Count: {counter}</p>
+			<p className='header__right counter'>Count: {Counter()}</p>
 		</div>
 		</>
 	)

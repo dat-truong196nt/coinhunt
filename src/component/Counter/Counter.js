@@ -1,13 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from 'react-redux'
+import { actIncreaseAutoCounter } from "../../redux/actions";
 
 const Counter = () => {
-	const [counter, setCounter] = useState(0);
-
+	const dispatch = useDispatch();
 	useEffect(() => {
-		setInterval(() => setCounter(cnt => cnt + 1), 1000);
-	}, [])
+		setInterval(() => dispatch(actIncreaseAutoCounter()), 1000);
+	}, [dispatch])
 
-	return counter;
+	return useSelector(state => state.onRequestCounter.count);
 }
 
 export default Counter;
