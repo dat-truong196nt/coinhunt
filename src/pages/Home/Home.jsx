@@ -1,5 +1,5 @@
 import CoinList from "../../component/CoinList/CoinList";
-import Button from "../../component/Buton/Button";
+import Button from "../../component/Button/Button";
 import { getAll, getSpecific } from "../../api";
 import { useEffect, useState } from "react";
 import Empty from "../../component/Empty/Empty";

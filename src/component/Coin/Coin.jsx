@@ -1,4 +1,4 @@
-import Button from "../Buton/Button";
+import Button from "../Button/Button";
 
 const Coin = ({coin, isLoading, onBtnClick}) => (
 	<div className='coin'>
