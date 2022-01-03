@@ -1,10 +1,10 @@
 import Button from "../Buton/Button";
 
-const Coin = ({imgUrl='https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png', price='$0', isLoading}) => (
+const Coin = ({coin, isLoading}) => (
 	<div className='coin'>
 		<div className='coin-info'>
-			<img className='coin-info__image' src={imgUrl} alt='coin'></img>
-			<div className='coin-info__price'>${price}</div>
+			<img className='coin-info__image' src={coin.url} alt='coin'></img>
+			<div className='coin-info__price'>${coin.price}</div>
 		</div>
 		<div className='coin-action'>
 			<Button isLoading={isLoading}> Force Update</Button>
