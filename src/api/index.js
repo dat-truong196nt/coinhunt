@@ -16,13 +16,13 @@ const getAll = () => {
 	})
 };
 
-const getSpecific = (id) => {
+const getSpecific = (id) => (
 	axiosClient.get('/coins/markets', {
 		params: {
 			ids: id,
 			vs_currency: 'usd',
 		}
 	})
-};
+);
 
 export {getAll, getSpecific};
