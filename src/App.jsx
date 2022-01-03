@@ -2,7 +2,6 @@ import './App.css';
 import Header from './component/Header/Header';
 import Home from './pages/Home/Home';
 import Footer from './component/Footer/Footer';
-import Counter from './component/Counter/Counter';
 import { rootReducer } from './redux/reducers'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
