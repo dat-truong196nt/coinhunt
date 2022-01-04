@@ -7,7 +7,7 @@ const CoinList = ({coins, isLoading, onCoinClick}) => {
 			<Coin
 				key={coin.id}
 				coin={{url: coin.image, price: coin.current_price, id: coin.id}}
-				isLoading={isLoading || coin.isLoading}
+				isLoading={isLoading || coin.isLoading === true}
 				onBtnClick={onCoinClick}
 			/>)}
 		</div>

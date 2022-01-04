@@ -1,7 +1,6 @@
 import Counter from "../Counter/Counter";
 
-const Header = (props) => {
-	console.log(props);
+const Header = () => {
 	return (
 		<>
 		<div className='header'>
