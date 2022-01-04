@@ -3,7 +3,7 @@
 - Goto [Live version](https://dt-coinhunt.herokuapp.com/).
 
 # Local trial:
-- Clone [this repo]().
+- Clone [this repo](https://github.com/dat-truong196nt/coinhunt).
 - Run `npm install`.
 - Run `npm start`.
 
@@ -12,3 +12,6 @@
 - react + redux.
 - heroku hosting.
 - coingecko api.
+
+# Remaining errors:
+- `Force Update` for a single coin keep loading even though promise is returned.
