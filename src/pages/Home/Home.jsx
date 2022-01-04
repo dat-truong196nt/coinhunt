@@ -26,7 +26,10 @@ const Home = () => {
 			.catch(err => setCoins(coins.map(coin => (coin.id === id) ? {...coin, isLoading: false} : coin)))
 	}
 
-	useEffect(updateAllCoin, []);
+	useEffect(() => {
+		const intervalId = setInterval(updateAllCoin, 10000)
+		return () => clearInterval(intervalId)
+	}, []);
 
 	return (
 		<div className='content'>
