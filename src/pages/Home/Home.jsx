@@ -27,6 +27,7 @@ const Home = () => {
 	}
 
 	useEffect(() => {
+		updateAllCoin();
 		const intervalId = setInterval(updateAllCoin, 10000)
 		return () => clearInterval(intervalId)
 	}, []);
