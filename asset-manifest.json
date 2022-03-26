@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coinhunt/static/css/main.8c813446.css",
-    "main.js": "/coinhunt/static/js/main.0302f241.js",
+    "main.js": "/coinhunt/static/js/main.d4914a59.js",
     "static/js/787.c6e47363.chunk.js": "/coinhunt/static/js/787.c6e47363.chunk.js",
     "static/media/WorkSans-Medium.ttf": "/coinhunt/static/media/WorkSans-Medium.d7a9738056a6ecbd02c2.ttf",
     "static/media/WorkSans-SemiBold.ttf": "/coinhunt/static/media/WorkSans-SemiBold.3cdc6dedee87cb16aa3a.ttf",
@@ -24,11 +24,11 @@
     "static/media/LoadingButton.svg": "/coinhunt/static/media/LoadingButton.e527ff886871b9032fa1.svg",
     "index.html": "/coinhunt/index.html",
     "main.8c813446.css.map": "/coinhunt/static/css/main.8c813446.css.map",
-    "main.0302f241.js.map": "/coinhunt/static/js/main.0302f241.js.map",
+    "main.d4914a59.js.map": "/coinhunt/static/js/main.d4914a59.js.map",
     "787.c6e47363.chunk.js.map": "/coinhunt/static/js/787.c6e47363.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c813446.css",
-    "static/js/main.0302f241.js"
+    "static/js/main.d4914a59.js"
   ]
 }
