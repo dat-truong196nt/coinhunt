@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/coinhunt/static/css/main.8c813446.css",
+    "main.js": "/coinhunt/static/js/main.0302f241.js",
+    "static/js/787.c6e47363.chunk.js": "/coinhunt/static/js/787.c6e47363.chunk.js",
+    "static/media/WorkSans-Medium.ttf": "/coinhunt/static/media/WorkSans-Medium.d7a9738056a6ecbd02c2.ttf",
+    "static/media/WorkSans-SemiBold.ttf": "/coinhunt/static/media/WorkSans-SemiBold.3cdc6dedee87cb16aa3a.ttf",
+    "static/media/WorkSans-ExtraBold.ttf": "/coinhunt/static/media/WorkSans-ExtraBold.0316054f8fcae34aa582.ttf",
+    "static/media/WorkSans-Bold.ttf": "/coinhunt/static/media/WorkSans-Bold.843584d3b956f77ab07c.ttf",
+    "static/media/WorkSans-ExtraLight.ttf": "/coinhunt/static/media/WorkSans-ExtraLight.39c2ef630f6a13d764b7.ttf",
+    "static/media/WorkSans-Light.ttf": "/coinhunt/static/media/WorkSans-Light.485b5eb04cfd73857343.ttf",
+    "static/media/WorkSans-Regular.ttf": "/coinhunt/static/media/WorkSans-Regular.1cafe0d5298ed68180c8.ttf",
+    "static/media/WorkSans-Black.ttf": "/coinhunt/static/media/WorkSans-Black.cc5e8bace5f156e4f016.ttf",
+    "static/media/WorkSans-Thin.ttf": "/coinhunt/static/media/WorkSans-Thin.c565775d3a75b27a13a5.ttf",
+    "static/media/WorkSans-SemiBoldItalic.ttf": "/coinhunt/static/media/WorkSans-SemiBoldItalic.894e0c9afb998a1e96af.ttf",
+    "static/media/WorkSans-ExtraBoldItalic.ttf": "/coinhunt/static/media/WorkSans-ExtraBoldItalic.d387b8a3a05d8f4ef300.ttf",
+    "static/media/WorkSans-BoldItalic.ttf": "/coinhunt/static/media/WorkSans-BoldItalic.c0b9a4efc0863bd9ae96.ttf",
+    "static/media/WorkSans-MediumItalic.ttf": "/coinhunt/static/media/WorkSans-MediumItalic.3bf975b6fef2f8a1790b.ttf",
+    "static/media/WorkSans-ExtraLightItalic.ttf": "/coinhunt/static/media/WorkSans-ExtraLightItalic.be8aa0e953bab914791f.ttf",
+    "static/media/WorkSans-BlackItalic.ttf": "/coinhunt/static/media/WorkSans-BlackItalic.367e0c4a5363cbdb0f10.ttf",
+    "static/media/WorkSans-LightItalic.ttf": "/coinhunt/static/media/WorkSans-LightItalic.e86677514d53a321d367.ttf",
+    "static/media/WorkSans-ThinItalic.ttf": "/coinhunt/static/media/WorkSans-ThinItalic.c010147159c953e69dc9.ttf",
+    "static/media/WorkSans-Italic.ttf": "/coinhunt/static/media/WorkSans-Italic.d87e364a76caea68b793.ttf",
+    "static/media/LoadingButton.svg": "/coinhunt/static/media/LoadingButton.e527ff886871b9032fa1.svg",
+    "index.html": "/coinhunt/index.html",
+    "main.8c813446.css.map": "/coinhunt/static/css/main.8c813446.css.map",
+    "main.0302f241.js.map": "/coinhunt/static/js/main.0302f241.js.map",
+    "787.c6e47363.chunk.js.map": "/coinhunt/static/js/787.c6e47363.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c813446.css",
+    "static/js/main.0302f241.js"
+  ]
+}
